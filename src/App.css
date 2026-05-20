@@ -129,10 +129,13 @@ h1 {
   background: var(--color-canvas-soft);
 }
 
-.button:focus-visible,
-.token-editor:focus-visible {
+.button:focus-visible {
   outline: 2px solid var(--color-primary);
   outline-offset: 2px;
+}
+
+.token-editor:focus-visible {
+  outline: none;
 }
 
 .button-secondary.is-active {
@@ -197,3 +200,5 @@ h1 {
     justify-content: center;
   }
 }
+
+
